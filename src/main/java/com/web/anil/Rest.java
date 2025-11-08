@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Rest {
 	@GetMapping("/welcome")
 	public ResponseEntity<String> getMsg() {
-		String s = "This web application was created by Anil Kumar";
+		String s = "This web application was created by Anil Kumar 1";
 		return ResponseEntity.ok(s);
 	}
 
